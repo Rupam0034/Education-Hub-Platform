@@ -1418,13 +1418,7 @@ $('#searchInput').typeahead({
 
     document.addEventListener('DOMContentLoaded', function () {
         
-        const scrollElement = document.querySelector('.scrollspy-example');
-        if (scrollElement) {
-            bootstrap.ScrollSpy.getInstance(scrollElement) || new bootstrap.ScrollSpy(scrollElement, {
-                target: '#navbar-example2',
-                offset: 0
-            });
-        }
+
 
        
         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
