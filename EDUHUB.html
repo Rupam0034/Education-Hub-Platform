@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-       
+        
         body { 
             padding-top: 56px; 
         }
@@ -25,7 +25,7 @@
             min-height: calc(100vh - 56px);
         }
     
-        
+      
         .card {
             transition: transform 0.3s;
         }
@@ -49,7 +49,7 @@
             color: black;
         }
     
-       
+        
         body.night-mode {
             background-color: #121212; 
             color: white; 
@@ -86,7 +86,7 @@
             background-color: #555;
         }
     
-   
+        
         .night-mode .sidebar {
             background-color: #2a2a2a; 
         }
@@ -122,8 +122,6 @@
   
     
 
-
-
    
   .mt-n4 { margin-top: -1.5rem; }
   .nav-tabs .nav-link { 
@@ -141,183 +139,125 @@
     
 </head>
 <body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">EDYOU HUB</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">📚 Courses</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://onlinecourses.nptel.ac.in/" target="_blank">NPTEL</a></li>
-                            <li><a class="dropdown-item" href="https://www.udemy.com/" target="_blank">Udemy</a></li>
-                            <li><a class="dropdown-item" href="https://www.coursera.org/" target="_blank">Coursera</a></li>
-                            <li><a class="dropdown-item" href="https://www.edx.org/" target="_blank">edX</a></li>
-                            <li><a class="dropdown-item" href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
-                            <li><a class="dropdown-item" href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
-                            <li><a class="dropdown-item" href="https://www.pluralsight.com/" target="_blank">Pluralsight</a></li>
-                            <li><a class="dropdown-item" href="https://www.skillshare.com/" target="_blank">Skillshare</a></li>
-                            <li><a class="dropdown-item" href="https://alison.com/" target="_blank">Alison</a></li>
-                            <li><a class="dropdown-item" href="https://futurelearn.com/" target="_blank">FutureLearn</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">📖 Tutorials</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></li>
-                            <li><a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-                            <li><a class="dropdown-item" href="https://www.tutorialspoint.com/" target="_blank">Tutorialspoint</a></li>
-                            <li><a class="dropdown-item" href="https://www.javatpoint.com/" target="_blank">JavaTpoint</a></li>
-                            <li><a class="dropdown-item" href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
-                            <li><a class="dropdown-item" href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
-                            <li><a class="dropdown-item" href="https://www.programiz.com/" target="_blank">Programiz</a></li>
-                            <li><a class="dropdown-item" href="https://www.sololearn.com/" target="_blank">SoloLearn</a></li>
-                            <li><a class="dropdown-item" href="https://hackr.io/" target="_blank">Hackr.io</a></li>
-                            <li><a class="dropdown-item" href="https://www.digitalocean.com/community/tutorials" target="_blank">DigitalOcean</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">💼 Jobs</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.indeed.co.in/" target="_blank">Indeed</a></li>
-                            <li><a class="dropdown-item" href="https://www.naukri.com/" target="_blank">Naukri</a></li>
-                            <li><a class="dropdown-item" href="https://www.linkedin.com/jobs" target="_blank">LinkedIn Jobs</a></li>
-                            <li><a class="dropdown-item" href="https://www.monsterindia.com/" target="_blank">Monster India</a></li>
-                            <li><a class="dropdown-item" href="https://angel.co/jobs" target="_blank">AngelList</a></li>
-                            <li><a class="dropdown-item" href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></li>
-                            <li><a class="dropdown-item" href="https://www.turing.com/jobs" target="_blank">Turing</a></li>
-                            <li><a class="dropdown-item" href="https://www.hired.com/" target="_blank">Hired</a></li>
-                            <li><a class="dropdown-item" href="https://weworkremotely.com/" target="_blank">We Work Remotely</a></li>
-                            <li><a class="dropdown-item" href="https://remotive.io/" target="_blank">Remotive</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">🎯 Practice</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://www.hackerrank.com/" target="_blank">HackerRank</a></li>
-                            <li><a class="dropdown-item" href="https://leetcode.com/" target="_blank">LeetCode</a></li>
-                            <li><a class="dropdown-item" href="https://www.hackerearth.com/" target="_blank">HackerEarth</a></li>
-                            <li><a class="dropdown-item" href="https://www.topcoder.com/" target="_blank">TopCoder</a></li>
-                            <li><a class="dropdown-item" href="https://www.codewars.com/" target="_blank">CodeWars</a></li>
-                            <li><a class="dropdown-item" href="https://www.codingame.com/" target="_blank">CodinGame</a></li>
-                            <li><a class="dropdown-item" href="https://projecteuler.net/" target="_blank">Project Euler</a></li>
-                            <li><a class="dropdown-item" href="https://www.codechef.com/" target="_blank">CodeChef</a></li>
-                            <li><a class="dropdown-item" href="https://www.spoj.com/" target="_blank">SPOJ</a></li>
-                            <li><a class="dropdown-item" href="https://www.interviewbit.com/" target="_blank">InterviewBit</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">🤖 AI Support</a>
-                        <ul class="dropdown-menu">
-                            <li><h6 class="dropdown-header">💬 General AI Chatbots</h6></li>
-                            <li><a class="dropdown-item" href="https://chat.openai.com/" target="_blank">ChatGPT (OpenAI)</a></li>
-                            <li><a class="dropdown-item" href="https://grok.x.ai/" target="_blank">Grok (xAI)</a></li>
-                            <li><a class="dropdown-item" href="https://deepseek.com/" target="_blank">DeepSeek</a></li>
-                            <li><a class="dropdown-item" href="https://gemini.google.com/" target="_blank">Gemini (Google)</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><h6 class="dropdown-header">📝 Grammar & Writing</h6></li>
-                            <li><a class="dropdown-item" href="https://quillbot.com/" target="_blank">QuillBot</a></li>
-                            <li><a class="dropdown-item" href="https://grammarly.com/" target="_blank">Grammarly</a></li>
-                            <li><a class="dropdown-item" href="https://writesonic.com/" target="_blank">Writesonic</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><h6 class="dropdown-header">🧮 Math & Problem Solving</h6></li>
-                            <li><a class="dropdown-item" href="https://www.wolframalpha.com/" target="_blank">WolframAlpha</a></li>
-                            <li><a class="dropdown-item" href="https://mathway.com/" target="_blank">Mathway</a></li>
-                            <li><a class="dropdown-item" href="https://photomath.com/" target="_blank">Photomath</a></li>
-                            <li><a class="dropdown-item" href="https://symbolab.com/" target="_blank">Symbolab</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><h6 class="dropdown-header">👨‍💻 Coding & Debugging</h6></li>
-                            <li><a class="dropdown-item" href="https://replit.com/" target="_blank">Replit Ghostwriter</a></li>
-                            <li><a class="dropdown-item" href="https://codeium.com/" target="_blank">Codeium</a></li>
-                            <li><a class="dropdown-item" href="https://www.tabnine.com/" target="_blank">Tabnine</a></li>
-                            <li><a class="dropdown-item" href="https://huggingface.co/chat/" target="_blank">HuggingFace Chat</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-               
-                <div class="input-group ms-auto">
-                    <input type="text" class="form-control" list="searchSuggestions" 
-                           id="searchInput" placeholder="Search NPTEL, Coursera, LeetCode..." autocomplete="off">
-                    <button class="btn btn-outline-light" type="button">
-                        <i class="fas fa-search"></i>
-                    </button>
-                    
-                    <datalist id="searchSuggestions">
-                     
-                        <option value="NPTEL">
-                        <option value="Udemy">
-                        <option value="Coursera">
-                        <option value="edX">
-                        <option value="Khan Academy">
-                        <option value="Codecademy">
-                        <option value="Pluralsight">
-                        <option value="Skillshare">
-                        <option value="Alison">
-                        <option value="FutureLearn">
-                        
-                       
-                        <option value="GeeksforGeeks">
-                        <option value="W3Schools">
-                        <option value="Tutorialspoint">
-                        <option value="JavaTpoint">
-                        <option value="MDN Web Docs">
-                        <option value="FreeCodeCamp">
-                        <option value="Programiz">
-                        <option value="SoloLearn">
-                        <option value="Hackr.io">
-                        <option value="DigitalOcean Tutorials">
-                        
-                        <option value="Indeed">
-                        <option value="Naukri">
-                        <option value="LinkedIn Jobs">
-                        <option value="Monster India">
-                        <option value="AngelList">
-                        <option value="Glassdoor">
-                        <option value="Turing">
-                        <option value="Hired">
-                        <option value="We Work Remotely">
-                        <option value="Remotive">
-                        
-                    
-                        <option value="HackerRank">
-                        <option value="LeetCode">
-                        <option value="HackerEarth">
-                        <option value="TopCoder">
-                        <option value="CodeWars">
-                        <option value="CodinGame">
-                        <option value="Project Euler">
-                        <option value="CodeChef">
-                        <option value="SPOJ">
-                        <option value="InterviewBit">
-                        
-                     
-                        <option value="ChatGPT">
-                        <option value="Grok">
-                        <option value="DeepSeek">
-                        <option value="Gemini">
-                        <option value="QuillBot">
-                        <option value="Grammarly">
-                        <option value="Writesonic">
-                        <option value="WolframAlpha">
-                        <option value="Mathway">
-                        <option value="Photomath">
-                        <option value="Symbolab">
-                        <option value="Replit Ghostwriter">
-                        <option value="Codeium">
-                        <option value="Tabnine">
-                        <option value="HuggingFace Chat">
-                    </datalist>
-                </div>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">EDYOU HUB</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+  
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">📚 Courses</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://onlinecourses.nptel.ac.in/" target="_blank">NPTEL</a></li>
+              <li><a class="dropdown-item" href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+              <li><a class="dropdown-item" href="https://www.coursera.org/" target="_blank">Coursera</a></li>
+              <li><a class="dropdown-item" href="https://www.edx.org/" target="_blank">edX</a></li>
+              <li><a class="dropdown-item" href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
+              <li><a class="dropdown-item" href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+              <li><a class="dropdown-item" href="https://www.pluralsight.com/" target="_blank">Pluralsight</a></li>
+              <li><a class="dropdown-item" href="https://www.skillshare.com/" target="_blank">Skillshare</a></li>
+              <li><a class="dropdown-item" href="https://alison.com/" target="_blank">Alison</a></li>
+              <li><a class="dropdown-item" href="https://futurelearn.com/" target="_blank">FutureLearn</a></li>
+            </ul>
+          </li>
+  
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">📖 Tutorials</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></li>
+              <li><a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+              <li><a class="dropdown-item" href="https://www.tutorialspoint.com/" target="_blank">Tutorialspoint</a></li>
+              <li><a class="dropdown-item" href="https://www.javatpoint.com/" target="_blank">JavaTpoint</a></li>
+              <li><a class="dropdown-item" href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+              <li><a class="dropdown-item" href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
+              <li><a class="dropdown-item" href="https://www.programiz.com/" target="_blank">Programiz</a></li>
+              <li><a class="dropdown-item" href="https://www.sololearn.com/" target="_blank">SoloLearn</a></li>
+              <li><a class="dropdown-item" href="https://hackr.io/" target="_blank">Hackr.io</a></li>
+              <li><a class="dropdown-item" href="https://www.digitalocean.com/community/tutorials" target="_blank">DigitalOcean</a></li>
+            </ul>
+          </li>
+  
+       
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">💼 Jobs</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.indeed.co.in/" target="_blank">Indeed</a></li>
+              <li><a class="dropdown-item" href="https://www.naukri.com/" target="_blank">Naukri</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/jobs" target="_blank">LinkedIn Jobs</a></li>
+              <li><a class="dropdown-item" href="https://www.monsterindia.com/" target="_blank">Monster India</a></li>
+              <li><a class="dropdown-item" href="https://angel.co/jobs" target="_blank">AngelList</a></li>
+              <li><a class="dropdown-item" href="https://www.glassdoor.com/" target="_blank">Glassdoor</a></li>
+              <li><a class="dropdown-item" href="https://www.turing.com/jobs" target="_blank">Turing</a></li>
+              <li><a class="dropdown-item" href="https://www.hired.com/" target="_blank">Hired</a></li>
+              <li><a class="dropdown-item" href="https://weworkremotely.com/" target="_blank">We Work Remotely</a></li>
+              <li><a class="dropdown-item" href="https://remotive.io/" target="_blank">Remotive</a></li>
+            </ul>
+          </li>
+  
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">🎯 Practice</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.hackerrank.com/" target="_blank">HackerRank</a></li>
+              <li><a class="dropdown-item" href="https://leetcode.com/" target="_blank">LeetCode</a></li>
+              <li><a class="dropdown-item" href="https://www.hackerearth.com/" target="_blank">HackerEarth</a></li>
+              <li><a class="dropdown-item" href="https://www.topcoder.com/" target="_blank">TopCoder</a></li>
+              <li><a class="dropdown-item" href="https://www.codewars.com/" target="_blank">CodeWars</a></li>
+              <li><a class="dropdown-item" href="https://www.codingame.com/" target="_blank">CodinGame</a></li>
+              <li><a class="dropdown-item" href="https://projecteuler.net/" target="_blank">Project Euler</a></li>
+              <li><a class="dropdown-item" href="https://www.codechef.com/" target="_blank">CodeChef</a></li>
+              <li><a class="dropdown-item" href="https://www.spoj.com/" target="_blank">SPOJ</a></li>
+              <li><a class="dropdown-item" href="https://www.interviewbit.com/" target="_blank">InterviewBit</a></li>
+            </ul>
+          </li>
+  
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">🤖 AI Support</a>
+            <ul class="dropdown-menu">
+              <li><h6 class="dropdown-header">💬 General AI Chatbots</h6></li>
+              <li><a class="dropdown-item" href="https://chat.openai.com/" target="_blank">ChatGPT (OpenAI)</a></li>
+              <li><a class="dropdown-item" href="https://grok.x.ai/" target="_blank">Grok (xAI)</a></li>
+              <li><a class="dropdown-item" href="https://deepseek.com/" target="_blank">DeepSeek</a></li>
+              <li><a class="dropdown-item" href="https://gemini.google.com/" target="_blank">Gemini (Google)</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">📝 Grammar & Writing</h6></li>
+              <li><a class="dropdown-item" href="https://quillbot.com/" target="_blank">QuillBot</a></li>
+              <li><a class="dropdown-item" href="https://grammarly.com/" target="_blank">Grammarly</a></li>
+              <li><a class="dropdown-item" href="https://writesonic.com/" target="_blank">Writesonic</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">🧮 Math & Problem Solving</h6></li>
+              <li><a class="dropdown-item" href="https://www.wolframalpha.com/" target="_blank">WolframAlpha</a></li>
+              <li><a class="dropdown-item" href="https://mathway.com/" target="_blank">Mathway</a></li>
+              <li><a class="dropdown-item" href="https://photomath.com/" target="_blank">Photomath</a></li>
+              <li><a class="dropdown-item" href="https://symbolab.com/" target="_blank">Symbolab</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><h6 class="dropdown-header">👨‍💻 Coding & Debugging</h6></li>
+              <li><a class="dropdown-item" href="https://replit.com/" target="_blank">Replit Ghostwriter</a></li>
+              <li><a class="dropdown-item" href="https://codeium.com/" target="_blank">Codeium</a></li>
+              <li><a class="dropdown-item" href="https://www.tabnine.com/" target="_blank">Tabnine</a></li>
+              <li><a class="dropdown-item" href="https://huggingface.co/chat/" target="_blank">HuggingFace Chat</a></li>
+            </ul>
+          </li>
+  
+        </ul>
+  
+        
+        <div class="input-group ms-auto">
+          <input type="text" class="form-control" id="searchInput" placeholder="Search NPTEL, Coursera, LeetCode..." autocomplete="off">
+          <button class="btn btn-outline-light" type="button">
+            <i class="fas fa-search"></i>
+          </button>
         </div>
-    </nav>
+  
+      </div>
+    </div>
+  </nav>
 
 
     <div class="d-flex flex-column min-vh-100">
@@ -330,9 +270,6 @@
      style="width: 100px; height: auto;">
                 <p class="text-muted text-center mb-4">Education For You</p>
 
-
-
-                
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a href="#" class="nav-link active bg-primary text-white" data-target="dashboard">
@@ -368,15 +305,6 @@
   </a>
 </li>
 
-
-
-
-
-  
-
-
-
-
                     <li class="nav-item">
                         <a href="#" class="nav-link text-dark" data-bs-toggle="modal" data-bs-target="#profileModal">
                             <i class="fas fa-user me-2"></i>  Profile
@@ -407,7 +335,7 @@
                 
 
 <div id="eduCarousel" class="carousel slide" data-bs-ride="carousel">
-  
+   
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#eduCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#eduCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -415,9 +343,9 @@
         <button type="button" data-bs-target="#eduCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
 
-
-    <div class="carousel-inner shadow-lg overflow-hidden">
     
+    <div class="carousel-inner shadow-lg overflow-hidden">
+        
         <div class="carousel-item active">
             <div class="position-relative" style="height: 400px;">
                 <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1470&q=80" 
@@ -433,7 +361,7 @@
             </div>
         </div>
 
-     
+        
         <div class="carousel-item">
             <div class="position-relative" style="height: 400px;">
                 <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1471&q=80" 
@@ -449,7 +377,7 @@
             </div>
         </div>
 
-      
+        
         <div class="carousel-item">
             <div class="position-relative" style="height: 400px;">
                 <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1470&q=80" 
@@ -465,7 +393,7 @@
             </div>
         </div>
 
-      
+       
         <div class="carousel-item">
             <div class="position-relative" style="height: 400px;">
                 <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1470&q=80" 
@@ -504,7 +432,6 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="position: absolute; right: 1rem; top: 50%; transform: translateY(-50%);"></button>
     </div>
 </div>
-
 
 
 
@@ -676,20 +603,20 @@
                           </ol>
                         </nav>
                     
-                       
-                        <div id="dashboard-pages">
+                        
+             <div id="dashboard-pages">
                          
                           <div class="dashboard-page" data-page="1">
-                            <div class="row g-4">
-                          
-                              <div class="col-md-3">
+                <div class="row g-4">
+                              
+                      <div class="col-md-3">
                                 <div class="card shadow h-100" data-bs-toggle="tooltip" data-bs-placement="top" title="View university images and campus photos">
-                                  <img src="Logo-removebg-preview.png" class="card-img-top" alt="University Gallery">
-                                  <div class="card-body text-center d-flex flex-column">
+                           <img src="Logo-removebg-preview.png" class="card-img-top" alt="University Gallery">
+                          <div class="card-body text-center d-flex flex-column">
                                     <h5 class="card-title">🏛️ University & Campus Gallery</h5>
-                                    <p class="card-text text-muted">Explore our partner institutions</p>
+                           <p class="card-text text-muted">Explore our partner institutions</p>
                                     <a href="imaigegallary.html" class="btn btn-primary mt-auto">Open Gallery</a>
-                                  </div>
+                       </div>
                                 </div>
                               </div>
                     
@@ -705,41 +632,40 @@
   </div>
 </div>
 
-                    
                             
-                              <div class="col-md-3">
+                  <div class="col-md-3">
                                 <div class="card shadow h-100" data-bs-toggle="tooltip" data-bs-placement="top" title="Enroll in our educational programs">
                                   <img src="google-forms.png" class="card-img-top" alt="Enrollment Form">
                                   <div class="card-body text-center d-flex flex-column">
-                                    <h5 class="card-title">📝 EduHub Enrollment</h5>
+                           <h5 class="card-title">📝 EduHub Enrollment</h5>
                                     <p class="card-text text-muted">Join our programs</p>
-                                    <a href="form.html" class="btn btn-primary mt-auto">Enroll Now</a>
+                              <a href="form.html" class="btn btn-primary mt-auto">Enroll Now</a>
                                   </div>
                                 </div>
-                              </div>
-                    
-                           
+                          </div>
+                
+                              
                               <div class="col-md-3">
                                 <div class="card shadow h-100" data-bs-toggle="tooltip" data-bs-placement="top" title="New features coming soon">
                                   <div class="card-img-top d-flex justify-content-center align-items-center bg-light" style="height: 180px;">
-                                    <div class="spinner-border text-primary" role="status"></div>
+                              <div class="spinner-border text-primary" role="status"></div>
                                   </div>
-                                  <div class="card-body text-center d-flex flex-column">
+                               <div class="card-body text-center d-flex flex-column">
                                     <h5 class="card-title">🚀 Coming Soon</h5>
-                                    <p class="card-text text-muted">New features in development</p>
+                               <p class="card-text text-muted">New features in development</p>
                                     <button class="btn btn-primary mt-auto" disabled>
                                       <span class="spinner-border spinner-border-sm me-2"></span> Loading...
-                                    </button>
+                           </button>
                                   </div>
-                                </div>
+                      </div>
                               </div>
-                            </div>
-                          </div>
+                         </div>
+                 </div>
                     
-                       
+                          
                           <div class="dashboard-page d-none" data-page="2">
                             <div class="row g-4">
-                          
+                              
                               <div class="col-md-3">
                                 <div class="card shadow h-100" data-bs-toggle="tooltip" data-bs-placement="top" title="More features coming soon">
                                   <div class="card-img-top d-flex justify-content-center align-items-center bg-light" style="height: 180px;">
@@ -759,7 +685,7 @@
                         </div>
                         <br><br>
                         
-                     
+                        
                         <nav aria-label="Page navigation">
                           <ul class="pagination justify-content-center mb-3">
                             <li class="page-item">
@@ -789,7 +715,7 @@
             <button type="submit" class="btn btn-success mt-3 float-end">Calculate CGPA</button>
           </form>
   
-         
+          
           <div class="d-flex justify-content-center my-4">
             <div class="position-relative rounded-circle border border-3 p-4" style="width: 150px; height: 150px;">
               <div class="progress rounded-circle h-100">
@@ -812,12 +738,11 @@
   
 
 
-
 <div class="modal fade" id="collegeFinderModal" tabindex="-1" aria-labelledby="collegeFinderModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content shadow-lg rounded-4 overflow-hidden">
       
-  
+      
       <div class="modal-header bg-primary text-white p-4">
         <div class="d-flex align-items-center">
           <img src="https://cdn-icons-png.flaticon.com/512/3022/3022255.png" width="40" class="me-3" alt="College Icon">
@@ -829,10 +754,10 @@
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
- 
+      
       <div class="modal-body p-4">
         
-      
+       
         <div class="mb-4">
           <label for="citySelect" class="form-label fw-semibold">Select Your City:</label>
           <div class="input-group">
@@ -851,7 +776,7 @@
           </div>
         </div>
 
-        
+       
         <div class="mb-4">
           <div id="universityList" class="card border-0 shadow-sm">
             <div class="card-body text-center p-4">
@@ -861,7 +786,6 @@
           </div>
         </div>
 
-     
         <div class="row g-3 mb-3">
           <div class="col-md-6">
             <div class="card h-100 border-0 shadow-sm">
@@ -908,13 +832,13 @@
 <div class="modal fade" id="chatCommunityModal" tabindex="-1" aria-labelledby="chatCommunityModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-scrollable">
     <div class="modal-content">
-   
+     
       <div class="modal-header bg-info text-white">
         <h5 class="modal-title" id="chatCommunityModalLabel">Student Chat Community</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
       </div>
 
-   
+     
       <div class="modal-body p-0">
         <section style="background-color: #CDC4F9;">
           <div class="container-fluid p-0">
@@ -923,10 +847,10 @@
                 <div class="card" id="chat3" style="border-radius: 15px; border: none;">
                   <div class="card-body p-0">
                     <div class="row g-0">
-                   
+                     
                       <div class="col-md-5 col-lg-4 col-xl-3">
                         <div class="p-3">
-                       
+                          
                           <div class="input-group rounded mb-3">
                             <input type="search" id="contactSearch" class="form-control rounded" placeholder="Search students..." aria-label="Search" />
                             <span class="input-group-text border-0" id="search-addon">
@@ -934,19 +858,19 @@
                             </span>
                           </div>
 
-                        
+                          
                           <div data-mdb-perfect-scrollbar-init style="position: relative; height: 400px; overflow-y: auto;" id="contactsContainer">
                             <ul class="list-unstyled mb-0" id="contactsList">
-                             
+                              
                             </ul>
                           </div>
                         </div>
                       </div>
 
-                    
+                      
                       <div class="col-md-7 col-lg-8 col-xl-9">
                         <div class="pt-3 pe-3" data-mdb-perfect-scrollbar-init style="position: relative; height: 400px; overflow-y: auto;" id="chatMessagesContainer">
-                        
+                          
                         </div>
 
                        
@@ -1019,6 +943,7 @@
         </div>
       </div>
 
+    
       <div class="modal-footer">
         <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
@@ -1053,7 +978,7 @@
 <div class="modal fade" id="notificationsModal" tabindex="-1" aria-labelledby="notificationsModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content border-0 shadow-lg rounded-4">
-      
+   
       <div class="modal-header bg-info text-white rounded-top-4">
         <h5 class="modal-title" id="notificationsModalLabel">
           <i class="fas fa-bell me-2"></i> Notifications Center
@@ -1061,9 +986,9 @@
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
 
-    
+     
       <div class="modal-body">
-       
+        
         <div class="mb-4">
           <h6 class="text-muted"><i class="fas fa-bolt me-2 text-warning"></i>Live Updates</h6>
           <ul class="list-group list-group-flush">
@@ -1084,7 +1009,7 @@
           </ul>
         </div>
 
-    
+       
         <div class="alert alert-warning d-flex align-items-start rounded-3">
           <i class="fas fa-calendar-alt me-3 fs-5 mt-1"></i>
           <div>
@@ -1093,7 +1018,7 @@
           </div>
         </div>
 
-    
+     
         <div class="alert alert-success d-flex align-items-start rounded-3">
           <i class="fas fa-lightbulb me-3 fs-5 mt-1"></i>
           <div>
@@ -1102,7 +1027,7 @@
           </div>
         </div>
 
-
+ 
  <div class="mt-4">
   <label for="emailNotifications" class="form-label">
     <i class="fas fa-envelope me-2"></i> Get notified via email:
@@ -1122,8 +1047,6 @@
 </div>
 
 </div>
-
-
 <div class="modal-footer bg-light">
 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 </div>
@@ -1144,7 +1067,7 @@
       </div>
 
       <div class="modal-body p-0">
-    
+        
         <div class="card overflow-hidden border-0">
           <div class="card-body p-0">
             <img src="profile bg32025-04-26 at 03.11.35_a927ce69.jpg" alt="Cover" class="img-fluid w-100" style="height: 200px; object-fit: cover;">
@@ -1183,7 +1106,7 @@
                 </div>
               </div>
             
-         
+            
             <ul class="nav nav-tabs justify-content-center mt-2" id="profileTabs" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-content" type="button">
@@ -1204,9 +1127,9 @@
           </div>
         </div>
         
-      
+       
         <div class="tab-content">
-         
+          
           <div class="tab-pane fade show active" id="profile-content" role="tabpanel">
             <div class="row p-3">
               <div class="col-md-4">
@@ -1230,21 +1153,21 @@
                       </div>
                     </div>
                     
-                  
+                    
                     <div id="posts-section">
                       <h6><i class="fas fa-images me-1"></i> My Posts</h6>
                       <div class="row g-2 mt-2">
                         <div class="col-4 col-md-6">
-                          <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="img-fluid rounded" alt="Post">
+                          <img src="72791116010.png" class="img-fluid rounded" alt="Post">
                         </div>
                         <div class="col-4 col-md-6">
-                          <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="img-fluid rounded" alt="Post">
+                          <img src="Image 2024-10-25 at 22.18.14_10f0698d.jpg" class="img-fluid rounded" alt="Post">
                         </div>
                         <div class="col-4 col-md-6">
-                          <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="img-fluid rounded" alt="Post">
+                          <img src="Image 2025-03-01 at 17.04.50_91252905.jpg" class="img-fluid rounded" alt="Post">
                         </div>
                         <div class="col-4 col-md-6">
-                          <img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="img-fluid rounded" alt="Post">
+                          <img src="Image 2025-03-01 at 17.05.15_67f5bf77.jpg" class="img-fluid rounded" alt="Post">
                         </div>
                       </div>
                     </div>
@@ -1260,7 +1183,7 @@
                   </div>
                 </div>
                 
-            
+                
                 <div id="certificates-section">
                   <div class="card">
                     <div class="card-body">
@@ -1294,7 +1217,7 @@
             </div>
           </div>
           
-          
+         
           <div class="tab-pane fade" id="posts-content" role="tabpanel">
             <div class="p-3">
               <div class="card">
@@ -1302,22 +1225,19 @@
                   <h5><i class="fas fa-images me-2"></i>My Posts</h5>
                   <div class="row g-2">
                     <div class="col-6 col-md-3">
-                      <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="img-fluid rounded" alt="Post">
+                      <img src="72791116010.png" class="img-fluid rounded" alt="Post">
                     </div>
                     <div class="col-6 col-md-3">
-                      <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="img-fluid rounded" alt="Post">
+                      <img src="Image 2024-10-25 at 22.18.14_10f0698d.jpg" class="img-fluid rounded" alt="Post">
                     </div>
                     <div class="col-6 col-md-3">
-                      <img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="img-fluid rounded" alt="Post">
+                      <img src="Image 2025-03-01 at 17.04.50_91252905.jpg" class="img-fluid rounded" alt="Post">
                     </div>
                     <div class="col-6 col-md-3">
-                      <img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="img-fluid rounded" alt="Post">
+                      <img src="Image 2025-03-01 at 17.05.15_67f5bf77.jpg" class="img-fluid rounded" alt="Post">
                     </div>
                     <div class="col-6 col-md-3">
-                      <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="img-fluid rounded" alt="Post">
-                    </div>
-                    <div class="col-6 col-md-3">
-                      <img src="https://bootdey.com/img/Content/avatar/avatar6.png" class="img-fluid rounded" alt="Post">
+                      <img src="Image 2025-04-26 at 23.51.54_6aece45f.jpg" class="img-fluid rounded" alt="Post">
                     </div>
                   </div>
                 </div>
@@ -1325,6 +1245,7 @@
             </div>
           </div>
           
+         
           <div class="tab-pane fade" id="certificates-content" role="tabpanel">
             <div class="p-3">
               <div class="card">
@@ -1358,7 +1279,7 @@
           </div>
         </div>
         
-     
+       
         <div class="card m-3">
           <div class="card-body text-center">
             <h5><i class="fas fa-globe text-danger me-2"></i>Portfolio Webpage</h5>
@@ -1389,7 +1310,7 @@
 <footer class="bg-dark text-white pt-5 pb-4">
     <div class="container">
         <div class="row">
-         
+           
             <div class="col-md-4 mb-4">
                 <h5 class="fw-bold mb-3">About EDYOU HUB</h5>
                 <p class="text-white" >EDYOU HUB (Education For You) is a comprehensive platform providing students with access to top educational resources, career guidance, and learning tools in one place.</p>
@@ -1401,7 +1322,7 @@
                 </div>
             </div>
 
-          
+            
             <div class="col-md-2 mb-4">
                 <h5 class="fw-bold mb-3">Quick Links</h5>
                 <ul class="list-unstyled">
@@ -1419,7 +1340,7 @@
                 <ul class="list-unstyled">
                     <li class="mb-2">
                         <i class="fas fa-phone-alt me-2"></i>
-                        <a href="tel:8918621xxx" class="text-white text-decoration-none">+91 8918621xxx</a>
+                        <a href="tel:8918621935" class="text-white text-decoration-none">+91 8918621935</a>
                     </li>
                     <li class="mb-2">
                         <i class="fas fa-envelope me-2"></i>
@@ -1435,7 +1356,7 @@
                 </ul>
             </div>
 
-         
+           
             <div class="col-md-3 mb-4">
                 <h5 class="fw-bold mb-3">Newsletter</h5>
                 <p>Subscribe to get updates on new features and educational resources.</p>
@@ -1450,7 +1371,7 @@
 
         <hr class="my-4 bg-light">
 
-      
+        
         <div class="row align-items-center">
             <div class="col-md-6 text-center text-md-start">
                 <p class="mb-0">&copy; 2025 EDYOU HUB. All rights reserved.</p>
@@ -1469,13 +1390,34 @@
 </footer>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-
 <script>
+
+
+
+
+var searchItems = [
+  "NPTEL", "Udemy", "Coursera", "edX", "Khan Academy", "Codecademy", "Pluralsight", "Skillshare", "Alison", "FutureLearn",
+  "GeeksforGeeks", "W3Schools", "Tutorialspoint", "JavaTpoint", "MDN Web Docs", "FreeCodeCamp", "Programiz", "SoloLearn", "Hackr.io", "DigitalOcean",
+  "Indeed", "Naukri", "LinkedIn Jobs", "Monster India", "AngelList", "Glassdoor", "Turing", "Hired", "We Work Remotely", "Remotive",
+  "HackerRank", "LeetCode", "HackerEarth", "TopCoder", "CodeWars", "CodinGame", "Project Euler", "CodeChef", "SPOJ", "InterviewBit",
+  "ChatGPT", "Grok", "DeepSeek", "Gemini", "QuillBot", "Grammarly", "Writesonic", "WolframAlpha", "Mathway", "Photomath", "Symbolab",
+  "Replit Ghostwriter", "Codeium", "Tabnine", "HuggingFace Chat"
+];
+
+
+$('#searchInput').typeahead({
+  source: searchItems
+});
+
+
+
+
+
+
     document.addEventListener('DOMContentLoaded', function () {
-       
+        
         const scrollElement = document.querySelector('.scrollspy-example');
         if (scrollElement) {
             bootstrap.ScrollSpy.getInstance(scrollElement) || new bootstrap.ScrollSpy(scrollElement, {
@@ -1671,18 +1613,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
   });
 
 
-
-
- 
-
-
-
-
-
-
-
-
-
+  
   const currentUser = {
     id: 'user1',
     name: 'Rupam Baral',
@@ -1753,7 +1684,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
     ]
   };
 
-  
+ 
   const contactsList = document.getElementById('contactsList');
   const chatMessagesContainer = document.getElementById('chatMessagesContainer');
   const chatMessageInput = document.getElementById('chatMessageInput');
@@ -1765,18 +1696,18 @@ document.getElementById('citySelect').addEventListener('change', function() {
   const fileAttachmentModal = new bootstrap.Modal(document.getElementById('fileAttachmentModal'));
   const uploadFileBtn = document.getElementById('uploadFileBtn');
 
-
+  
   let currentChat = 'user2'; 
   let attachedFile = null;
 
-
+  
   function initChat() {
     renderContacts();
     renderChatMessages(currentChat);
     setCurrentUserAvatar();
   }
 
-
+  
   function renderContacts(filter = '') {
     contactsList.innerHTML = '';
     const filteredContacts = contacts.filter(contact => 
@@ -1807,7 +1738,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
       contactsList.appendChild(contactItem);
     });
 
-   
+    
     document.querySelectorAll('[data-contact-id]').forEach(item => {
       item.addEventListener('click', function(e) {
         e.preventDefault();
@@ -1817,7 +1748,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
     });
   }
 
- 
+  
   function switchChat(contactId) {
     currentChat = contactId;
     renderContacts();
@@ -1830,7 +1761,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
     }
   }
 
- 
+  
   function renderChatMessages(contactId) {
     chatMessagesContainer.innerHTML = '';
     const messages = chatHistory[contactId] || [];
@@ -1855,15 +1786,16 @@ document.getElementById('citySelect').addEventListener('change', function() {
       chatMessagesContainer.appendChild(messageDiv);
     });
 
+    
     chatMessagesContainer.scrollTop = chatMessagesContainer.scrollHeight;
   }
 
-
+  
   function setCurrentUserAvatar() {
     currentUserAvatar.src = currentUser.avatar;
   }
 
- 
+  
   function sendMessage() {
     const messageText = chatMessageInput.value.trim();
     if (messageText === '' && !attachedFile) return;
@@ -1882,7 +1814,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
       };
     }
 
-   
+    
     if (!chatHistory[currentChat]) {
       chatHistory[currentChat] = [];
     }
@@ -1895,7 +1827,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
       contact.lastMessageTime = 'Just now';
     }
 
- 
+   
     chatMessageInput.value = '';
     attachedFile = null;
 
@@ -1904,7 +1836,7 @@ document.getElementById('citySelect').addEventListener('change', function() {
     renderContacts();
   }
 
- 
+  
   sendMessageBtn.addEventListener('click', sendMessage);
   
   chatMessageInput.addEventListener('keypress', function(e) {
@@ -1931,10 +1863,10 @@ document.getElementById('citySelect').addEventListener('change', function() {
     renderContacts(this.value);
   });
 
- 
+  
   emojiPickerBtn.addEventListener('click', function(e) {
     e.preventDefault();
- 
+    
     const emoji = '😊';
     chatMessageInput.value += emoji;
     chatMessageInput.focus();
@@ -1957,22 +1889,22 @@ document.getElementById('citySelect').addEventListener('change', function() {
 
 
 
- // Select the theme toggle button
+
  const themeToggle = document.getElementById('theme-toggle');
 
-// Check if the user has a preference saved in localStorage
+
 if (localStorage.getItem('theme') === 'night') {
   document.body.classList.add('night-mode');
-  // Update the button text and icon
+
   themeToggle.innerHTML = '<i class="fas fa-sun me-2"></i> Night Mode';
 }
 
-// Add event listener to toggle the theme
+
 themeToggle.addEventListener('click', () => {
-  // Toggle night mode class on the body
+ 
   document.body.classList.toggle('night-mode');
 
-  // Save the user's theme preference in localStorage
+ 
   if (document.body.classList.contains('night-mode')) {
     localStorage.setItem('theme', 'night');
     themeToggle.innerHTML = '<i class="fas fa-sun me-2"></i> Night Mode';
@@ -2003,7 +1935,6 @@ themeToggle.addEventListener('click', () => {
                           }
                         }
                       
-                        // Initial Display
                         showPage(currentPage);
                       
 </script>
