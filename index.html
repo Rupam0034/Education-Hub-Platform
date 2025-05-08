@@ -1588,56 +1588,8 @@ $('#searchInput').typeahead({
 
 
 
-  // Adjust modal sizes for mobile
-  function adjustModalsForMobile() {
-    if (window.innerWidth < 768) {
-      document.querySelectorAll('.modal-xl').forEach(modal => {
-        modal.classList.remove('modal-xl');
-        modal.classList.add('modal-lg');
-      });
-    } else {
-      document.querySelectorAll('.modal-lg').forEach(modal => {
-        if (modal.id === 'chatCommunityModal' || modal.id === 'profileModal') {
-          modal.classList.remove('modal-lg');
-          modal.classList.add('modal-xl');
-        }
-      });
-    }
-  }
 
-  // Run on load and resize
-  adjustModalsForMobile();
-  window.addEventListener('resize', adjustModalsForMobile);
-
-  // Touch support for carousel
-  const carousel = document.getElementById('eduCarousel');
-  if (carousel) {
-    let touchStartX = 0;
-    let touchEndX = 0;
-    
-    carousel.addEventListener('touchstart', e => {
-      touchStartX = e.changedTouches[0].screenX;
-    }, {passive: true});
-    
-    carousel.addEventListener('touchend', e => {
-      touchEndX = e.changedTouches[0].screenX;
-      handleSwipe();
-    }, {passive: true});
-    
-    function handleSwipe() {
-      if (touchEndX < touchStartX - 50) {
-        // Swipe left - next
-        const nextBtn = carousel.querySelector('.carousel-control-next');
-        nextBtn.click();
-      }
-      if (touchEndX > touchStartX + 50) {
-        // Swipe right - prev
-        const prevBtn = carousel.querySelector('.carousel-control-prev');
-        prevBtn.click();
-      }
-    }
-  }
-});
+  
 
 
 
